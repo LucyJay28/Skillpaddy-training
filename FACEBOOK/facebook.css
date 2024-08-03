@@ -1,0 +1,167 @@
+body {
+    background-color: #f0f2f5;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    gap: 10rem;
+    padding: 5rem 15rem;
+}
+
+.left-container {
+    width: 50%;
+}
+
+.facebook-logo {
+    height: 106px;
+    margin: -28px;
+    padding: 112px 0 16px;
+}
+
+.text {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin: 0;
+}
+
+.right-container {
+    width: 50%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 28px;
+    width: 396px;
+
+    border-radius: 10px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.input-field {
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #1d2129;
+    font-size: 17px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 20px;
+    outline: none;
+    padding: 14px 16px;
+    width: 100%;
+    cursor: text;
+    box-shadow: #0866ff;
+
+}
+
+
+.login-button{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08, .52, .52, 1) background-color,
+        200ms cubic-bezier(.08, .52, .52, 1) box-shadow,
+        200ms cubic-bezier(.08, .52, .52, 1) transform;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-button :hover{
+    background-color: #1877f2;
+}
+
+.create-account-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: fit-content;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08, .52, .52, 1) background-color,
+        200ms cubic-bezier(.08, .52, .52, 1) box-shadow,
+        200ms cubic-bezier(.08, .52, .52, 1) transform;
+    font-weight: 600;
+    box-sizing: content-box;
+    margin: 0;
+    cursor: pointer;
+}
+
+.create-account-button:hover{
+    background-color: #36a420;
+}
+
+
+.forgotten-password{
+    color: #1877f2;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+hr{
+    background-color: #dadde1;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+
+}
+
+.forgotten-password:hover {
+    text-decoration: underline;
+}
+
+.create-page {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 28px;
+}
+
+.create-page a {
+    color: #000;
+    text-decoration: none;
+}
+
+.create-page a:hover{
+    text-decoration: underline;
+}

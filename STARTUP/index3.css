@@ -1,0 +1,65 @@
+body{
+    font-family:"Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url(https://www.notebookcheck-cn.com/fileadmin/Notebooks/News/_nc4/redmibook14header.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 6rem;
+    }
+
+    h1{
+        font-size: 3rem;
+        color: rgb(106, 0, 255);
+    }
+
+    hr{
+        border-color: red;
+        border-width: 0.1rem;
+        border: 1px solid red;
+        background-color: red;
+        color: red;
+        width: 100%;
+        max-width: 65px;
+        border-radius: 5px;
+    }
+
+    button{
+        background-color: red;
+        border-color: red;
+        font-weight: 700;
+        border-radius: 300px;
+        text-transform: uppercase;
+        color: white;
+        padding: 1.2rem 2rem;
+        font-size: 1.1rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition: transform 1s cubic-bezier(0.23, 1, 0.320, 1);
+    }
+    
+    button:hover{
+        transform: scale(1.1);
+        background-color: red;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 5rem;
+    }

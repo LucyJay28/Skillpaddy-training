@@ -1,0 +1,234 @@
+html,
+body {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: white;
+    /* width: 100vw; */
+    height: 100vh;
+    overflow: hidden;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    /* height: 100vh; */
+    /* gap: 10rem; */
+    /* padding: 5rem 0; */
+}
+
+.right-container {
+    flex-basis: 50%;
+    padding-right: 2rem;
+}
+
+.left-container {
+    flex-basis: 50%;
+    padding-left: 10rem;
+}
+
+.LinkedIn-picture {
+    /* border-radius: 50%; */
+    width: 700px;
+    height: 700px;
+    margin-top: 0;
+    /* object-fit: contain; */
+    /* height: auto; */
+}
+
+.text {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    font-weight: 200;
+    color: #b34121;
+    box-sizing: border-box;
+    letter-spacing: 0.25px;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    color: rgb(0 0 0 / 60%);
+    cursor: pointer;
+
+}
+
+.icons :hover {
+    color: black;
+}
+
+.under-text {
+    font-size: 12px;
+}
+
+header {
+    display: flex;
+    padding-left: 10rem;
+    padding-bottom: 0;
+}
+
+.linkedin-logo {
+    margin: 1rem;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 20rem;
+}
+
+hr {
+    border-color: rgba(214, 208, 208, 0.495);
+    margin-inline: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.join-now {
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    height: min-content;
+    min-height: 48px;
+    cursor: pointer;
+    padding: 13px 25px;
+}
+
+.sign-in {
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    height: min-content;
+    min-height: 48px;
+    cursor: pointer;
+    padding: 12px 24px;
+    color: blue;
+    border: 1px solid;
+    border-color: blue;
+    background-color: white;
+
+}
+
+.join-now:hover {
+    background-color: rgba(225, 221, 221, 0.392);
+}
+
+.sign-in:hover {
+    background-color: rgba(194, 219, 227, 0.223);
+}
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    /* margin-top: o; */
+    width: 25px;
+    height: 25px;
+    margin-right: 0.3rem;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* margin-top: 1rem;
+    margin-left: 0.5rem; */
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    height: min-content;
+    min-height: 40px;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #202124;
+    padding-top: 12px;
+    width: 60%;
+    height: 60%;
+
+}
+
+.google:hover {
+    background-color: rgba(198, 219, 225, 0.136);
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    height: min-content;
+    min-height: 40px;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #202124;
+    padding-top: 12px;
+    width: 60%;
+    height: 60%;
+}
+
+.email:hover {
+    background-color: rgba(225, 221, 221, 0.392);
+
+}
+
+.terms {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    font-size: 12px;
+    color: rgb(0 0 0 / 60%);
+    line-height: 1.2rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    width: 60%;
+    /* box-sizing: border-box; */
+    /* vertical-align: auto; */
+}
+
+.terms a {
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    width: 408px;
+    margin-top: 0;
+    /* padding-top: 0px;
+padding-bottom: 16px; */
+}
+
+.join a {
+    text-decoration: none;
+    padding-left: 0.3rem;
+
+}
+
+.join a:hover {
+    text-decoration: underline;
+}
